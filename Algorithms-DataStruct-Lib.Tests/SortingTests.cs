@@ -22,10 +22,31 @@ namespace Algorithms_DataStruct_Lib.Tests
             return samples;
         }
 
+        private void RunTestsForSortAlgorithms(Action<int[]> sort)
+        {
+            foreach(var sample in Samples())
+            {
+                sort(sample);
+                CollectionAssert.IsOrdered(sample);
+                PrintOut(sample);
+            }
+        }
+
+        private void PrintOut(int[] array)
+        {
+            TestContext.WriteLine("----------TRACE-----------\n");
+            foreach(var el in array)
+            {
+                TestContext.Write(el + " ");
+            }
+            TestContext.WriteLine("\n--------------------------\n");
+
+        }
+
         [Test]
         public void BubbleSort_ValidInput_SortedInput()
         {
-
+            RunTestsForSortAlgorithms(Sorting.BubbleSort);
         }
     }
 }

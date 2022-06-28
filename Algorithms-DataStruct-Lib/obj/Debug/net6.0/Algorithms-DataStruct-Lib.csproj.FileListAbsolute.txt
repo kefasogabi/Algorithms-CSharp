@@ -9,3 +9,4 @@ D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Deb
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.dll
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\ref\Algorithms-DataStruct-Lib.dll
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.pdb
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.csproj.AssemblyReference.cache
