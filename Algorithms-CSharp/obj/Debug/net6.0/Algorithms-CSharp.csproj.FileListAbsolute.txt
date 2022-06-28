@@ -6,11 +6,6 @@ D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Data\1Kints.txt
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Data\2Kints.txt
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Data\8Kints.txt
-D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Data\leipzig100k.txt
-D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Data\leipzig1m.txt
-D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Data\leipzig300k.txt
-D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Data\tale.txt
-D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Data\tinyTale.txt
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Algorithms-CSharp.exe
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Algorithms-CSharp.deps.json
 D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-CSharp\bin\Debug\net6.0\Algorithms-CSharp.runtimeconfig.json
