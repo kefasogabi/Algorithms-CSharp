@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9939626a-e2e2-4109-b5dd-1bd5b1137712": {
+      "ProjectGuid": "9939626a-e2e2-4109-b5dd-1bd5b1137712",
+      "DisplayName": "Algorithms-CSharp",
+      "ColorIndex": 0
+    },
+    "a0760527-aceb-4df1-9e9a-a937d0b1bfc2": {
+      "ProjectGuid": "a0760527-aceb-4df1-9e9a-a937d0b1bfc2",
+      "DisplayName": "Algorithms-DataStruct-Lib",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

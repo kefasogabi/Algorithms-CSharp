@@ -1,0 +1,11 @@
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\bin\Debug\net6.0\Algorithms-DataStruct-Lib.deps.json
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\bin\Debug\net6.0\Algorithms-DataStruct-Lib.dll
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\bin\Debug\net6.0\ref\Algorithms-DataStruct-Lib.dll
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\bin\Debug\net6.0\Algorithms-DataStruct-Lib.pdb
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.AssemblyInfoInputs.cache
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.AssemblyInfo.cs
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.csproj.CoreCompileInputs.cache
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.dll
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\ref\Algorithms-DataStruct-Lib.dll
+D:\PRACTICE\Algorithm Course\Algorithms-CSharp\Algorithms-DataStruct-Lib\obj\Debug\net6.0\Algorithms-DataStruct-Lib.pdb
