@@ -66,5 +66,11 @@ namespace Algorithms_DataStruct_Lib.Tests
         {
             RunTestsForSortAlgorithms(Sorting.ShellSort);
         }
+
+        [Test]
+        public void MergeSort_ValidInput_SortedOuput()
+        {
+            RunTestsForSortAlgorithms(Sorting.MergeSort);
+        }
     }
 }

@@ -15,7 +15,29 @@ using System.Diagnostics;
 //Console.WriteLine($"The number of \"zero-sum\" triplets:{triplets}");
 //Console.WriteLine($"Time taken:{watch.Elapsed:g}");
 
-IterateOver(new int[] { 1,2,3});
+//IterateOver(new int[] { 1,2,3});
+
+// Nodes
+
+Node first = new Node() { Value = 5 };
+Node second = new Node() { Value = 1 };
+Node third = new Node() { Value = 7 };
+
+first.Next = second;
+second.Next = third;
+
+PrintOutLinkedList(first);
+
+static void PrintOutLinkedList(Node node)
+{
+    while (node != null)
+    {
+        Console.WriteLine(node.Value);
+        node = node.Next;
+    }
+}
+
+
 
 static unsafe void IterateOver(int[] array)
 {
@@ -88,6 +110,11 @@ static void ArraysDemo()
         }
         Console.WriteLine("");
     }
+
+
+   
+
+   
 
     Console.WriteLine();
 

@@ -10,7 +10,12 @@
       "ProjectGuid": "a0760527-aceb-4df1-9e9a-a937d0b1bfc2",
       "DisplayName": "Algorithms-DataStruct-Lib",
       "ColorIndex": 1
+    },
+    "847712e8-6ae3-4801-bf76-b7a13c1abcc8": {
+      "ProjectGuid": "847712e8-6ae3-4801-bf76-b7a13c1abcc8",
+      "DisplayName": "Algorithms-DataStruct-Lib.Tests",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
