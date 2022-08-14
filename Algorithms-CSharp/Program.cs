@@ -117,3 +117,10 @@ stack.Pop();
 Console.WriteLine($"Should print out 3: {stack.Peek()}");
 
 
+Console.WriteLine("Iterate over the stack.");
+
+foreach (var item in stack)
+{
+    Console.WriteLine(item);
+}
+
