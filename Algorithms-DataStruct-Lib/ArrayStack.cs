@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Algorithms_DataStruct_Lib
 {
-    public class ArrayStack<T>
+    public class ArrayStack<T> : IEnumerable<T>
     {
-        public bool IsEmpty { get; set; }
+        public bool IsEmpty => Count == 0;
         public int Count { get; set; }
 
         private T[] _items;
@@ -19,19 +20,48 @@ namespace Algorithms_DataStruct_Lib
             _items = new T[defaultCapacity];
         }
 
-        public void Push(T p0)
+        public ArrayStack(int capacity)
         {
-            throw new NotImplementedException();
+            _items = new T[capacity];
         }
 
-        public double Peek()
+        public void Push(T item)
         {
-            throw new NotImplementedException();
+            if(_items.Length == Count)
+            {
+                T[] largerArray = new T[Count * 2];
+                Array.Copy(_items, largerArray, Count);
+
+                _items = largerArray;
+            }
+
+            _items[Count++] = item;
+        }
+
+        public T Peek()
+        {
+            return _items[Count - 1];
         }
 
         public void Pop()
         {
-            throw new NotImplementedException();
+           if(IsEmpty)
+                throw new InvalidOperationException();
+
+           _items[--Count] = default(T);
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+           for(int i = Count - 1; i >= 0; i--)
+            {
+                yield return _items[i];
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }
