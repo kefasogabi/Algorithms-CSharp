@@ -42,6 +42,12 @@ namespace Algorithms_DataStruct_Lib.Tests
         public void Peek_PushTwoItems_ReturnsHeadItem()
         {
             var stack = new LinkedStack<int>();
+
+            Assert.Throws<InvalidOperationException>(() =>
+            {
+                stack.Peek();
+            });
+
             stack.Push(1);
             stack.Push(2);
 
