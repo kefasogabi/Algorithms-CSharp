@@ -103,7 +103,7 @@ using System.Diagnostics;
 //    Console.Read();
 //}
 
-var stack = new ArrayStack<int>();
+var stack = new LinkedStack<int>();
 
 stack.Push(1);
 stack.Push(2);
