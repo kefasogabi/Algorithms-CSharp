@@ -103,24 +103,107 @@ using System.Diagnostics;
 //    Console.Read();
 //}
 
-var stack = new LinkedStack<int>();
+//var stack = new LinkedStack<int>();
 
-stack.Push(1);
-stack.Push(2);
-stack.Push(3);
-stack.Push(4);
+//stack.Push(1);
+//stack.Push(2);
+//stack.Push(3);
+//stack.Push(4);
 
-Console.WriteLine($"Should print out 4: {stack.Peek()}");
+//Console.WriteLine($"Should print out 4: {stack.Peek()}");
 
-stack.Pop();
+//stack.Pop();
 
-Console.WriteLine($"Should print out 3: {stack.Peek()}");
+//Console.WriteLine($"Should print out 3: {stack.Peek()}");
 
 
-Console.WriteLine("Iterate over the stack.");
+//Console.WriteLine("Iterate over the stack.");
 
-foreach (var item in stack)
+//foreach (var item in stack)
+//{
+//    Console.WriteLine(item);
+//}
+
+
+var CustomerList = new List<Customer>()
 {
-    Console.WriteLine(item);
+    new Customer() { Name = "Ann", Age = 3 },
+    new Customer() { Name = "Bill", Age = 16 },
+    new Customer() { Name = "Rose", Age = 20 },
+    new Customer() { Name = "Rob", Age = 14 },
+    new Customer() { Name = "Bill", Age = 28 }, 
+    new Customer() { Name = "John", Age = 14 }, 
+};
+
+var intList = new List<int>() { 1, 4, 2, 7, 5, 9, 12, 3, 2, 1 };
+
+bool contains = intList.Contains(3);
+bool contains2 = CustomerList.Contains(new Customer() { Name = "Rob", Age = 14 }, new CustomersComparer());
+
+bool exists = CustomerList.Exists(x => x.Age == 28);
+
+int min = intList.Min();
+int max = intList.Max();
+
+int youngestCustomerAge = CustomerList.Min(x => x.Age);
+
+Customer bill = CustomerList.Find(x => x.Name == "Bill");
+
+Customer lastBill = CustomerList.FindLast(x => x.Name == "Bill");
+
+Customer lastBill2 = CustomerList.Last(x => x.Name == "Bill");
+
+List<Customer> customers = CustomerList.FindAll(x => x.Age > 18);
+IEnumerable<Customer> customers2 = customers.Where(x => x.Age > 18);
+
+int index1 = CustomerList.FindIndex(x => x.Age == 14);
+int lastIndex = CustomerList.FindLastIndex(x => x.Age > 18);
+
+int indexOf = intList.IndexOf(2);
+int lastIndexOf = intList.LastIndexOf(2);
+
+
+// for list
+bool isTrueForAll = CustomerList.TrueForAll(x => x.Age > 10);
+
+// from linq
+
+bool all = CustomerList.All(x => x.Age > 18);
+
+bool areThereAny = CustomerList.Any(x => x.Age == 3);
+
+int count = CustomerList.Count( x => x.Age > 18);
+
+Customer firstBill = CustomerList.First(x => x.Name == "Bill");
+
+Customer singleAnn = CustomerList.Single(x => x.Name == "Ann");
+
+
+bool Exists(int[] array, int number)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        if(number == array[i])
+        {
+             return true;
+        }
+    }
+    return false;
 }
 
+
+int IndexOf(int[] array, int number)
+{
+    for(int i = 0;i < array.Length; i++)
+    {
+        if(array[i] == number)
+        {
+            return i;
+        }
+    }
+
+    return -1;
+}
+
+
+Console.ReadKey();  
